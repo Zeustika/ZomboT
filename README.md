@@ -59,7 +59,4 @@ python bot.py
 - The bot's status will automatically update every `UPDATE_INTERVAL` seconds to reflect the current player count.
 
 
----
-
 Made with ☕ & 🧟‍♂️ for the Project Zomboid community.
-```
