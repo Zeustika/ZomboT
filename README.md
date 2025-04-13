@@ -20,7 +20,7 @@ A simple and lightweight Discord bot that connects to your **Project Zomboid ser
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/discord-pz-rcon-bot.git
+git clone https://github.com/Zeustika/ZomboT.git
 cd discord-pz-rcon-bot
 ```
 
@@ -39,7 +39,7 @@ DISCORD_TOKEN=your_discord_token
 RCON_HOST=your_server_ip
 RCON_PORT=your_server_port
 RCON_PASSWORD=your_rcon_password
-UPDATE_INTERVAL=10
+UPDATE_INTERVAL=10 //in second
 ```
 
 4. **Run the bot:**
