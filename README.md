@@ -39,7 +39,7 @@ DISCORD_TOKEN=your_discord_token
 RCON_HOST=your_server_ip
 RCON_PORT=your_server_port
 RCON_PASSWORD=your_rcon_password
-UPDATE_INTERVAL=10 //in second
+UPDATE_INTERVAL=10
 ```
 
 4. **Run the bot:**
