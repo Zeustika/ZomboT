@@ -1,4 +1,4 @@
-# 🧟 Discord RCON Bot for Project Zomboid
+# 🧟 ZomboT-Discord playercounter for Project Zomboid
 
 A simple and lightweight Discord bot that connects to your **Project Zomboid server** using RCON and displays the number of online players as its Discord status.
 
