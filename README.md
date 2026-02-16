@@ -1,21 +1,21 @@
-# 🧟 ZomboT-Discord playercounter for Project Zomboid
+# ZomboT-Discord Player Counter for Project Zomboid
 
 A simple and lightweight Discord bot that connects to your **Project Zomboid server** using RCON and displays the number of online players as its Discord status.
 
-## ✨ Features
+## Features
 
-- Real-time player count display in the bot's status
-- Automatically updates at a custom interval
-- Uses `discord.py`, `python-dotenv`, and `rcon` libraries
+* Real-time player count display in the bot's status
+* Automatically updates at a custom interval
+* Uses `discord.py`, `python-dotenv`, and `rcon` libraries
 
-## 📦 Requirements
+## Requirements
 
-- Python 3.8+
-- A running Project Zomboid server with RCON enabled
-- A Discord bot token
-- RCON host IP, port, and password
+* Python 3.8+
+* A running Project Zomboid server with RCON enabled
+* A Discord bot token
+* RCON host IP, port, and password
 
-## 🔧 Setup
+## Setup
 
 1. **Clone the repository:**
 
@@ -48,15 +48,15 @@ UPDATE_INTERVAL=10
 python bot.py
 ```
 
-## 📌 Notes
+## Notes
 
-- Make sure RCON is properly configured in your `servertest.ini`:
+* Make sure RCON is properly configured in your `servertest.ini`:
+
   ```ini
   RCONPort=your_server_port
   RCONPassword=your_rcon_password
   RCONEnabled=true
   ```
-- The bot's status will automatically update every `UPDATE_INTERVAL` seconds to reflect the current player count.
+* The bot's status will automatically update every `UPDATE_INTERVAL` seconds to reflect the current player count.
 
-
-Made with ☕ & 🧟‍♂️ for the Project Zomboid community.
+Made with ☕ for the Project Zomboid community.
